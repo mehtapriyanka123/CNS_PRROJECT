@@ -14,6 +14,7 @@ In our project we will be using this framework to learn to scan the vulnerabilit
 Metasploitable 2 is a vulnerable Ubuntu Linux virtual machine that can be used as a target for attacks, security testing and for practicing common penetration testing techniques.
 In our project we will be using this as the target machine which will be attacked upon by the Metasploit framework.
  
+ ##
  
 ###### The typical process used by attackers in exploitation and privilege escalation:
 1. Find an open port and running service: As in our case we are using metasploitrable 2 as the target machine we will have to get its IP address manually, for that we will run the command “ifconfig” in the command shell of metasploitable 2 machine.
