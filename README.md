@@ -11,3 +11,10 @@ In our project we will be using this framework to learn to scan the vulnerabilit
 # METASPLOITABLE 2
 Metasploitable 2 is a vulnerable Ubuntu Linux virtual machine that can be used as a target for attacks, security testing and for practicing common penetration testing techniques.
 In our project we will be using this as the target machine which will be attacked upon by the Metasploit framework.
+ 
+ 
+The typical process used by attackers in exploitation and privilege escalation:
+•	Find an open port and running service: As in our case we are using metasploitrable 2 as the target machine we will have to get its IP address manually, for that we will run the command “ifconfig” in the command shell of metasploitable 2 machine.
+•	Determine that the service has a vulnerability: This step basically comes under information gathering in which network scanning tools like Nmap are used. In our project we have used Nmap. Nmap uses the IP packets to identify all the devices connected to the network. It also provides information on the services and operating systems they are running on.
+•	Determine whether that vulnerability has an exploit available: After knowing what all vulnerabilities are there in the device we search if there are any exploit corresponding to the vulnerabilities.
+
