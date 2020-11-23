@@ -28,6 +28,6 @@ In project we have explored three basic exploitations:
 2.	Related to the SSH port
 3.	Related to the SMB port
 
-You can get the implementation steps in the 
+You can see all the implementation steps from the  
 
 
