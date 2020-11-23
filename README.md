@@ -17,7 +17,17 @@ In our project we will be using this as the target machine which will be attacke
  ##
  
 ###### The typical process used by attackers in exploitation and privilege escalation:
-1. Find an open port and running service: As in our case we are using metasploitrable 2 as the target machine we will have to get its IP address manually, for that we will run the command “ifconfig” in the command shell of metasploitable 2 machine.
-2. Determine that the service has a vulnerability: This step basically comes under information gathering in which network scanning tools like Nmap are used. In our project we have used Nmap. Nmap uses the IP packets to identify all the devices connected to the network. It also provides information on the services and operating systems they are running on.
-3. Determine whether that vulnerability has an exploit available: After knowing what all vulnerabilities are there in the device we search if there are any exploit corresponding to the vulnerabilities.
+1. **Find an open port and running service:** As in our case we are using metasploitrable 2 as the target machine we will have to get its IP address manually, for that we will run the command “ifconfig” in the command shell of metasploitable 2 machine.
+2. **Determine that the service has a vulnerability:** This step basically comes under information gathering in which network scanning tools like Nmap are used. In our project we have used Nmap. Nmap uses the IP packets to identify all the devices connected to the network. It also provides information on the services and operating systems they are running on.
+3. **Determine whether that vulnerability has an exploit available:** After knowing what all vulnerabilities are there in the device we search if there are any exploit corresponding to the vulnerabilities.
+
+##
+
+In project we have explored three basic exploitations:
+1.	Related to the FTP port
+2.	Related to the SSH port
+3.	Related to the SMB port
+
+You can get the implementation steps in the 
+
 
